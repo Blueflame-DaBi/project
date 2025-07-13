@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.logout-btn {
+  margin-top: 10px;
+  background: #dc3545;
+}
+
+.message {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.admin-panel ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.admin-panel li {
+  background: #f8f9fa;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}

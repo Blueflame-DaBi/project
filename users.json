@@ -1,0 +1,20 @@
+[
+  {
+    "username": "admin",
+    "password": "<hashed_password>",
+    "role": "admin"
+  },
+  {
+    "username": "user1",
+    "password": "<hashed_password>",
+    "role": "customer"
+  },
+  {
+    "username": "dabii",
+    "password": "$2a$08$agO2aw3ohl5eX.Na2xFGt.7aSXq9qvHWAT5k/gFX6.0F/KHhYSS2G"
+  },
+  {
+    "username": "toga",
+    "password": "$2a$08$SCtHHzDLjdMW8cpcGmJE1e71IgS4Ukc2REjd4Az14Ri6d2gtWZtpe"
+  }
+]
